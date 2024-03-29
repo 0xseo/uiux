@@ -1,0 +1,18 @@
+.entire {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sideRight {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgb(219, 167, 183);
+}

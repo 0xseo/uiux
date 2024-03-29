@@ -1,0 +1,39 @@
+.entire {
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 219, 167);
+}
+
+.logo {
+  width: 256px;
+  height: 48px;
+  background-color: red;
+}
+
+.searchArea {
+  flex-grow: 1;
+  background-color: pink;
+}
+
+.buttonArea {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  background-color: yellow;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: red;
+}

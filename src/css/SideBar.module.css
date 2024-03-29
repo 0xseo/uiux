@@ -1,0 +1,19 @@
+.entire {
+  display: flex;
+  flex-direction: row;
+  flex-grow:1;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  background-color: rgb(214, 219, 167);
+}
+
+.sideBtnArea {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  background-color: rgb(214, 219, 167);
+}
