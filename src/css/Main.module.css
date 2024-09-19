@@ -16,3 +16,39 @@
   width: 300px;
   background-color: rgb(219, 167, 183);
 }
+
+.selected {
+  background-color: #bae8fe;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #1f1f1f;
+}
